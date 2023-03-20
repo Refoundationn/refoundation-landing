@@ -1,5 +1,4 @@
 import React from 'react';
-import  Tagline from "./tagline.svg"
 import Image from 'next/image'
 import redgreenblue from '../../public/redgreenblue.png';
 
