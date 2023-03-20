@@ -15,5 +15,7 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [
+    // require('tailwindcss-text-gradient')(), // enable text gradient plugin
+  ],
 }
