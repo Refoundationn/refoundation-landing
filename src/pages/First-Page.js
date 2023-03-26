@@ -20,14 +20,12 @@ export default function FirstPage() {
                                 <button className="text-white">Work with us</button>
                             </div>
                         </div>
-
                         {/* The tagline and the svg  */}
                         <div className="flex flex-1 ">
                             <div className="text-8xl font-bold font-SuisseIntl self-center">
                                 We are a 501(c)3 non-profit that creates hackathon opportunities for youth.
                             </div>
                         </div>
-
                         <div className="justify-self-end">
                             <div className="flex flex-row gap-4 justify-center ">
                                 <button className="px-3 py-2 bg-black rounded-lg text-white ">

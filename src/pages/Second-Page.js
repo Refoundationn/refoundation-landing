@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import build23 from '../../public/image-grid-1.png'
 import blueline from '../../public/blue-line.png'
+import {Spacer} from "@nextui-org/react";
 
 
 export default function SecondPage() {
@@ -60,9 +61,7 @@ export default function SecondPage() {
                             </div>
                         </div>
                     </div>
-
-                    
-
+                    <Spacer y={7} />
                     <div className="py-10">
                         <div className="grid grid-cols-7 grid-rows-1 gap-3">
                             <div className="max-h-[64px]">

@@ -4,6 +4,7 @@ import FirstPage from './First-Page'
 import SecondPage from './Second-Page'
 import ThirdPage from './Third-Page'
 import Footer from './Footer'
+import {Spacer } from "@nextui-org/react";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
 
       <main>
         <FirstPage />
+        <Spacer y={18} />
         <SecondPage />
         <ThirdPage />
       </main>
