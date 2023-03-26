@@ -20,6 +20,7 @@ export default function Home() {
         <FirstPage />
         <Spacer y={18} />
         <SecondPage />
+        <Spacer y={18} />
         <ThirdPage />
       </main>
     </>

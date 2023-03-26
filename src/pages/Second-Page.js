@@ -61,7 +61,7 @@ export default function SecondPage() {
                             </div>
                         </div>
                     </div>
-                    <Spacer y={7} />
+                    <Spacer y={8} />
                     <div className="py-10">
                         <div className="grid grid-cols-7 grid-rows-1 gap-3">
                             <div className="max-h-[64px]">
@@ -114,10 +114,8 @@ export default function SecondPage() {
                                     height={64}
                                 />
                             </div>
-
                         </div>
                     </div>
-                    
                 </div>
             </div>
         </div>
