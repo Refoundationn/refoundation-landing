@@ -17,11 +17,15 @@ export default function Home() {
       </Head>
 
       <main>
-        <FirstPage />
-        <Spacer y={18} />
-        <SecondPage />
-        <Spacer y={18} />
-        <ThirdPage />
+        
+          <FirstPage />
+          <Spacer y={18} />
+          <SecondPage />
+          <Spacer y={18} />
+          <ThirdPage />
+          <Spacer y={18} />
+          <Footer />
+        
       </main>
     </>
   )

@@ -6,7 +6,7 @@ export default function FirstPage() {
     return (
         <div className="w-full h-screen bg-cover bg-no-repeat relative flex ">
             <Image src={redgreenblue} layout="fill" objectFit="cover" objectPosition="center" className="z-10" />
-            <div className="max-w-screen-2xl absolute inset-0 z-10">
+            <div className="max-w-screen-2xl absolute inset-0 z-10 mx-auto text-center">
                 <div className="px-5 py-5 flex flex-col z-0">
                     <div className="min-h-screen flex flex-col justify-center">
                         <div className="h-16 text-black flex flex-row items-center justify-between">

@@ -7,10 +7,10 @@ import {Spacer} from "@nextui-org/react";
 
 export default function SecondPage() {
     return (
-        <div className="w-full h-screen bg-cover bg-no-repeat relative flex">
+        <div className="w-full h-screen bg-cover bg-no-repeat relative flex ">
             <Image src={blueline} layout="fill" objectFit="cover" objectPosition="center" className="z-0"></Image>
-            <div className="max-w-screen-2xl absolute inset-0 z-10 px-5 py-5 flex flex-col" >
-                <div className="min-h-screen flex flex-col justify-center">
+            <div className="max-w-screen-2xl absolute inset-0 z-10 px-5 py-5 flex flex-col mx-auto" >
+                <div className="min-h-screen flex flex-col justify-center ">
                     <div className="grid grid-cols-5 gap-2">
                         <div className="bg-white rounded-3xl shadow-lg min-h-[50px] col-span-3">
                             <Image src={build23} />
