@@ -15,7 +15,7 @@ export default function SecondPage() {
                         <div className="bg-white rounded-3xl shadow-lg min-h-[50px] col-span-3">
                             <Image src={build23} />
                         </div>
-                        <div className="bg-white px-11 flex flex-col items-center justify-center rounded-lg shadow-lg min-h-[50px] col-span-2">
+                        <div className="bg-white px-11 flex flex-col items-center justify-center  shadow-lg min-h-[50px] col-span-2">
                             <div className="font-SuisseIntl font-bold text-6xl text-center pb-2">
                                 Our Inaugural 2023 Hackathon
                             </div>
@@ -23,7 +23,7 @@ export default function SecondPage() {
                                 BUILD’23 was our inaugural 2023 hackathon focusing on addressing the most pressing social issues through using 21st century emerging technologies.
                             </div>
                         </div>
-                        <div className="bg-white py-14 px-4 flex flex-col items-center justify-center rounded-lg shadow-lg min-h-[50px]">
+                        <div className="bg-white py-14 px-4 flex flex-col items-center justify-center shadow-lg min-h-[50px]">
                             <div className="flex flex-col">
                                 <div className="font-SuisseIntl font-bold text-6xl text-center bg-gradient-to-r from-blue-700 to-blue-500 text-transparent bg-clip-text">
                                     440+
@@ -33,7 +33,7 @@ export default function SecondPage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="bg-white py-14 px-4 flex flex-col items-center justify-center rounded-lg shadow-lg min-h-[50px]">
+                        <div className="bg-white py-14 px-4 flex flex-col items-center justify-center shadow-lg min-h-[50px]">
                             <div className="flex flex-col">
                                 <div className="font-SuisseIntl font-bold text-6xl text-center bg-gradient-to-r from-blue-500 to-blue-300 text-transparent bg-clip-text">
                                     38+
@@ -43,7 +43,7 @@ export default function SecondPage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="bg-white py-14 px-4 flex flex-col items-center justify-center rounded-lg shadow-lg min-h-[50px]">
+                        <div className="bg-white py-14 px-4 flex flex-col items-center justify-center shadow-lg min-h-[50px]">
                             <div className="flex flex-col">
                                 <div className="font-SuisseIntl font-bold text-6xl text-center bg-gradient-to-r from-cyan-400 to-cyan-400 text-transparent bg-clip-text">
                                     40+
@@ -53,7 +53,7 @@ export default function SecondPage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="bg-white py-14 px-4 flex flex-col items-center justify-center rounded-lg shadow-lg min-h-[50px] col-span-2">
+                        <div className="bg-white py-14 px-4 flex flex-col items-center justify-center shadow-lg min-h-[50px] col-span-2">
                             <div className="flex flex-col">
                                 <div className="font-SuisseIntl font-bold text-6xl text-center bg-gradient-to-r from-blue-500 to-cyan-400 text-transparent bg-clip-text">
                                     Four Winning Tracks
@@ -63,7 +63,7 @@ export default function SecondPage() {
                     </div>
                     <Spacer y={8} />
                     <div className="py-10">
-                        <div className="grid grid-cols-7 grid-rows-1 gap-3">
+                        <div className="grid grid-cols-7 grid-rows-1 gap-5 justify-center items-center">
                             <div className="max-h-[64px]">
                                 <Image
                                     src="/sponsors/adobe.png"
@@ -71,7 +71,6 @@ export default function SecondPage() {
                                     height={64}
                                 />
                             </div>
-
                             <div className="max-h-[64px]">
                                 <Image
                                     src="/sponsors/wolfram.png"
@@ -79,7 +78,7 @@ export default function SecondPage() {
                                     height={64}
                                 />
                             </div>
-                            <div className=" max-h-[64px]">
+                            <div className=" max-h-[64px] flex justify-center">
                                 <Image
                                     src="/sponsors/xyz.png"
                                     width={111}

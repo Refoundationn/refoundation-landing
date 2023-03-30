@@ -6,10 +6,10 @@ import circle from '../../public/join-us/Our-team.svg'
 
 export default function ThirdPage() {
     return (
-        <div className="w-full h-screen ">
+        <div className="w-full ">
             <div className="max-w-screen-2xl mx-auto py-5 px-5">
                 <div className="grid grid-cols-3 gap-5">
-                    <div className="bg-white py-20 px-4 flex flex-col items-center justify-center rounded-lg shadow-lg min-h-[50px]">
+                    <div className="bg-white py-20 px-4 flex flex-col items-center justify-center shadow-lg min-h-[50px]">
                         <div className="flex flex-col">
                             <div className="font-SuisseIntl font-bold text-6xl text-center">
                                 Join us
@@ -21,7 +21,8 @@ export default function ThirdPage() {
                             </div>
                         </div>
                     </div>
-                    <div className="bg-white py-32 px-10 flex flex-col items-center justify-center rounded-lg shadow-xl min-h-[50px]">
+                    
+                    <div className="border-4 border-r-0 border-l-0 border-black bg-white py-32 px-10 flex flex-col items-center justify-center min-h-[50px]  shadow-lg ">
                         <div className="flex flex-col">
                             <div className="flex items-center justify-center pb-6">
                                 <Image src={diamond} width={81} height={81} />
@@ -34,7 +35,8 @@ export default function ThirdPage() {
                             </div>
                         </div>
                     </div>
-                    <div className="bg-white py-32 px-10 flex flex-col items-center justify-center rounded-lg shadow-lg min-h-[50px]">
+                    
+                    <div className="border-r-4 border-black bg-white py-32 px-10 flex flex-col items-center justify-center  shadow-lg min-h-[50px]">
                         <div className="flex flex-col">
                             <div className="flex items-center justify-center pb-6">
                                 <Image src={circle} width={77} height={77} />
