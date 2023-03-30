@@ -1,8 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
 import build23 from '../../public/image-grid-1.png'
+import build23background from '../../public/build23background.png'
 import blueline from '../../public/blue-line.png'
 import {Spacer} from "@nextui-org/react";
+
 
 
 export default function SecondPage() {
@@ -12,8 +14,8 @@ export default function SecondPage() {
             <div className="max-w-screen-2xl absolute inset-0 z-10 px-5 py-5 flex flex-col mx-auto" >
                 <div className="min-h-screen flex flex-col justify-center ">
                     <div className="grid grid-cols-5 gap-2">
-                        <div className="bg-white rounded-3xl shadow-lg min-h-[50px] col-span-3">
-                            <Image src={build23} />
+                        <div className="bg-white rounded-xl shadow-lg min-h-[50px] col-span-3">
+                            <Image src={build23background} className="rounded-xl"/>
                         </div>
                         <div className="bg-white px-11 flex flex-col items-center justify-center  shadow-lg min-h-[50px] col-span-2">
                             <div className="font-SuisseIntl font-bold text-6xl text-center pb-2">
