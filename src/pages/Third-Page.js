@@ -8,8 +8,8 @@ export default function ThirdPage() {
     return (
         <div className="w-full ">
             <div className="max-w-screen-2xl mx-auto py-5 px-5">
-                <div className="grid grid-cols-3 gap-5">
-                    <div className="bg-white py-20 px-4 flex flex-col items-center justify-center shadow-lg min-h-[50px]">
+                <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-5">
+                    <div className="bg-white xl:py-20 py-32 px-4 flex flex-col items-center justify-center shadow-lg min-h-[50px] md:col-span-2 lg:col-span-1">
                         <div className="flex flex-col">
                             <div className="font-SuisseIntl font-bold text-6xl text-center">
                                 Join us
@@ -22,7 +22,7 @@ export default function ThirdPage() {
                         </div>
                     </div>
                     
-                    <div className="border-4 border-r-0 border-l-0 border-black bg-white py-32 px-10 flex flex-col items-center justify-center min-h-[50px]  shadow-lg ">
+                    <div className="border-4 border-r-0 border-l-0 border-black sm:border-white bg-white py-32 px-10 flex flex-col items-center justify-center min-h-[50px]  shadow-lg ">
                         <div className="flex flex-col">
                             <div className="flex items-center justify-center pb-6">
                                 <Image src={diamond} width={81} height={81} />
@@ -36,7 +36,7 @@ export default function ThirdPage() {
                         </div>
                     </div>
                     
-                    <div className="border-r-4 border-black bg-white py-32 px-10 flex flex-col items-center justify-center  shadow-lg min-h-[50px]">
+                    <div className="border-r-4 border-black sm:border-white bg-white py-32 px-10 flex flex-col items-center justify-center  shadow-lg min-h-[50px]">
                         <div className="flex flex-col">
                             <div className="flex items-center justify-center pb-6">
                                 <Image src={circle} width={77} height={77} />

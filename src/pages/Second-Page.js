@@ -13,11 +13,11 @@ export default function SecondPage() {
             <Image src={blueline} layout="fill" objectFit="cover" objectPosition="center" className="z-0"></Image>
             <div className="max-w-screen-2xl absolute inset-0 z-10 px-5 py-5 flex flex-col mx-auto" >
                 <div className="min-h-screen flex flex-col justify-center ">
-                    <div className="grid grid-cols-5 gap-2">
+                    <div className="grid lg:grid-cols-5 gap-2 md:grid-cols-3 ">
                         <div className="bg-white rounded-xl shadow-lg min-h-[50px] col-span-3">
                             <Image src={build23background} className="rounded-xl"/>
                         </div>
-                        <div className="bg-white px-11 flex flex-col items-center justify-center  shadow-lg min-h-[50px] col-span-2">
+                        <div className="bg-white px-11 flex flex-col items-center justify-center  shadow-lg min-h-[50px] lg:col-span-2 md:col-span-3 py-14">
                             <div className="font-SuisseIntl font-bold text-6xl text-center pb-2">
                                 Our Inaugural 2023 Hackathon
                             </div>
@@ -55,7 +55,7 @@ export default function SecondPage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="bg-white py-14 px-4 flex flex-col items-center justify-center shadow-lg min-h-[50px] col-span-2">
+                        <div className="bg-white py-14 px-4 flex flex-col items-center justify-center shadow-lg min-h-[50px] lg:col-span-2 md:col-span-3">
                             <div className="flex flex-col">
                                 <div className="font-SuisseIntl font-bold text-6xl text-center bg-gradient-to-r from-blue-500 to-cyan-400 text-transparent bg-clip-text">
                                     Four Winning Tracks
