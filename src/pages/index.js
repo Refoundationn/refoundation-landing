@@ -17,9 +17,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <main>
-        
           <FirstPage />
           <Spacer y={18} />
           <SecondPage />
@@ -27,7 +25,6 @@ export default function Home() {
           <ThirdPage />
           <Spacer y={10} />
           <Footer />
-        
       </main>
     </>
   )

@@ -3,7 +3,6 @@ import Image from "next/image"
 import RFDNWhite from "../../public/rfdn-white.svg"
 
 export default function Footer() {
-
     // id="firstpage-scroll"
     function ScrollButton() {
         const handleButtonClick = () => {
@@ -15,7 +14,6 @@ export default function Footer() {
             <a onClick={handleButtonClick}>Back to the top</a>
         )
     }
-
     return (
         <div className="w-full bg-black ">
             <div className="max-w-screen-2xl flex flex-col  px-5 py-10 pb-4 mx-auto">
