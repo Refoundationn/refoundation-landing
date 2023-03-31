@@ -14,11 +14,11 @@ export default function SecondPage() {
             <div className="max-w-screen-2xl absolute inset-0 z-10 px-5 py-5 flex flex-col mx-auto" >
                 <div className="min-h-screen flex flex-col justify-center ">
                     <div className="grid lg:grid-cols-5 gap-2 md:grid-cols-3 ">
-                        <div className="bg-white rounded-xl shadow-lg min-h-[50px] col-span-3">
+                        <div id="build23-scroll" className="bg-white rounded-xl shadow-lg min-h-[50px] col-span-3">
                             <Image src={build23background} className="rounded-xl"/>
                         </div>
                         <div className="bg-white px-11 flex flex-col items-center justify-center  shadow-lg min-h-[50px] lg:col-span-2 md:col-span-3 py-14">
-                            <div className="font-SuisseIntl font-bold text-6xl text-center pb-2">
+                            <div  className="font-SuisseIntl font-bold text-6xl text-center pb-2">
                                 Our Inaugural 2023 Hackathon
                             </div>
                             <div className="font-SuisseIntl font-regular text-1xl text-center">
@@ -68,6 +68,7 @@ export default function SecondPage() {
                         <div className="grid grid-cols-7 grid-rows-1 gap-5 justify-center items-center">
                             <div className="max-h-[64px]">
                                 <Image
+                                    alt="Adobe Logo"
                                     src="/sponsors/adobe.png"
                                     width={210}
                                     height={64}
@@ -75,6 +76,7 @@ export default function SecondPage() {
                             </div>
                             <div className="max-h-[64px]">
                                 <Image
+                                    alt="Wolfram Logo"
                                     src="/sponsors/wolfram.png"
                                     width={181}
                                     height={64}
@@ -82,6 +84,7 @@ export default function SecondPage() {
                             </div>
                             <div className=" max-h-[64px] flex justify-center">
                                 <Image
+                                    alt="XYZ Logo"
                                     src="/sponsors/xyz.png"
                                     width={111}
                                     height={64}
@@ -89,6 +92,7 @@ export default function SecondPage() {
                             </div>
                             <div className="max-h-[64px]">
                                 <Image
+                                    alt="ISABC Logo"
                                     src="/sponsors/isabc.png"
                                     width={152}
                                     height={62}
@@ -96,6 +100,7 @@ export default function SecondPage() {
                             </div>
                             <div className="max-h-[64px]">
                                 <Image
+                                    alt="AlphaWallet Logo"
                                     src="/sponsors/alphawallet.png"
                                     width={302}
                                     height={64}
@@ -103,6 +108,7 @@ export default function SecondPage() {
                             </div>
                             <div className=" max-h-[64px]">
                                 <Image
+                                    alt="Verbwire Logo"
                                     src="/sponsors/verb.png"
                                     width={306}
                                     height={64}
@@ -110,6 +116,7 @@ export default function SecondPage() {
                             </div>
                             <div className="max-h-[64px]">
                                 <Image
+                                    alt="Mento Logo"
                                     src="/sponsors/mento.png"
                                     width={179}
                                     height={64}
