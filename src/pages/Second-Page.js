@@ -22,7 +22,7 @@ export default function SecondPage() {
                                 Our Inaugural 2023 Hackathon
                             </div>
                             <div className="font-SuisseIntl font-regular text-1xl text-center">
-                                BUILD’23 was our inaugural 2023 hackathon focusing on addressing the most pressing social issues through using 21st century emerging technologies.
+                                BUILD&apos;23 was our inaugural 2023 hackathon focusing on addressing the most pressing social issues through using 21st century emerging technologies.
                             </div>
                         </div>
                         <div className="bg-white py-14 px-4 flex flex-col items-center justify-center shadow-lg min-h-[50px]">

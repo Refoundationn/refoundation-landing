@@ -12,7 +12,7 @@ export default function FirstPage() {
             window.scrollTo({ top: y, behavior: 'smooth' });
         }
         return (
-            <a onClick={handleButtonClick}>BUILD'23 - Our Past Iteration</a>
+            <a onClick={handleButtonClick}>BUILD&apos;23 - Our Past Iteration</a>
         )
     }
     return (
@@ -23,7 +23,7 @@ export default function FirstPage() {
                     <div className="min-h-screen flex flex-col justify-center">
                         <div className="h-16 text-black flex flex-row items-center justify-between">
                             {/* Header */}
-                            <img src="/RFDN.svg" height="21"/>
+                            <img alt="RFDN Logo" src="/RFDN.svg" height="21"/>
                             <div id="firstpage-scroll" className="flex gap-6">
                                 <span><a href="mailto:info@refoundation.co">Contact</a></span>
                                 <span><a href="https://build23.xyz" target="_blank">Our Past Iteration</a></span>
@@ -37,7 +37,7 @@ export default function FirstPage() {
                         {/* The tagline and the svg  */}
                         <div className="flex flex-1 ">
                             <div className="text-8xl font-bold font-SuisseIntl self-center px-5">
-                                We are a 501(c)3 non-profit that creates hackathon opportunities for youth.
+                                We are a 501(c)(3) non-profit that creates hackathon opportunities for youth.
                             </div>
                         </div>
                         <div className="justify-self-end">
