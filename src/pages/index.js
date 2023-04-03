@@ -19,11 +19,11 @@ export default function Home() {
       </Head>
       <main>
           <FirstPage />
-          <Spacer y={18} />
+          <Spacer y={5} />
           <SecondPage />
-          <Spacer y={18} />
+          <Spacer y={5} />
           <ThirdPage />
-          <Spacer y={10} />
+          <Spacer y={5} />
           <Footer />
       </main>
     </>

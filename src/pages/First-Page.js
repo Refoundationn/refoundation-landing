@@ -16,10 +16,10 @@ export default function FirstPage() {
         )
     }
     return (
-        <div className="w-full min-h-screen bg-cover bg-no-repeat relative flex ">
-            <Image alt="blurred colors background" src={redgreenblue} layout="intrinsic" objectFit="cover" objectPosition="center" className="z-10 " />
-            <div className="max-w-screen-2xl absolute inset-0 z-10 mx-auto text-center">
-                <div className="px-5 py-5 flex flex-col z-0">
+        <div className="w-full h-screen bg-cover bg-no-repeat relative flex flex-col">
+            <Image alt="blurred colors background" src={redgreenblue} layout="fill" objectFit="cover" objectPosition="center" className="z-0 " />
+            <div className="max-w-screen-2xl relative z-10 mx-auto text-center">
+                <div className="px-5 py-5 flex flex-col">
                     <div className="min-h-screen flex flex-col justify-center">
                         <div className="h-16 text-black flex flex-row items-center justify-between">
                             {/* Header */}
@@ -35,12 +35,12 @@ export default function FirstPage() {
                             </div>
                         </div>
                         {/* The tagline and the svg  */}
-                        <div className="flex flex-1 ">
+                        <div className="flex flex-1">
                             <div className="text-5xl md:text-8xl font-bold font-SuisseIntl self-center px-5">
                                 We are a 501(c)(3) non-profit that creates hackathon opportunities for youth.
                             </div>
                         </div>
-                        <div className="justify-self-end">
+                        <div className="flex-2">
                             <div className="flex flex-row gap-4 justify-center">
                                 <button className="cursor-pointer hover:bg-blue-400 focus:outline-none px-3 py-2 bg-black rounded-lg text-white">
                                     <ScrollButton />
@@ -50,6 +50,7 @@ export default function FirstPage() {
                     </div>
                 </div>
             </div>
+            
         </div>
     )
 }
