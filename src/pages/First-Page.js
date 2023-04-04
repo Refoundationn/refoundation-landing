@@ -24,9 +24,9 @@ export default function FirstPage() {
                         <div className="h-16 text-black flex flex-row items-center justify-between">
                             {/* Header */}
                             <img alt="RFDN Logo" src="/RFDN.svg" height="21"/>
-                            <div id="firstpage-scroll" className="hidden sm:block flex gap-6">
-                                <span><a href="mailto:info@refoundation.co">Contact</a></span>
-                                <span><a href="https://build23.xyz" target="_blank">Our Past Iteration</a></span>
+                            <div id="firstpage-scroll" className="sm:block flex flex-row ">
+                                <span className="px-3"><a href="mailto:info@refoundation.co">Contact</a></span>
+                                <span className="px-3"><a href="https://build23.xyz" target="_blank">Our Past Iteration</a></span>
                             </div>
                             <div className="cursor-pointer hover:bg-blue-400 focus:outline-none px-3 py-2 bg-black rounded-lg">
                                 <button className="text-white">
